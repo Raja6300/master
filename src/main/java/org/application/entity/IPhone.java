@@ -23,7 +23,7 @@ public class IPhone {
     Long price;
     @Column(name="iPhone_mocameraPixels")
     float cameraPixels;
-
-
+    @Column(name="new_column")
+     String newColumn;
 }
 
